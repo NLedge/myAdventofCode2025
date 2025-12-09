@@ -13,7 +13,7 @@ while(i+1 < len(line)): # loop over ranges
     log = len(line[i])
     while(log <= len(line[i+1])):
         if(log > 20):
-            raise(exception("Big numbers"))
+            raise(Exception("Big numbers"))
         for p in check: # loop over primes
             if(log % p != 0):
                 continue
