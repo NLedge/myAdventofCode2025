@@ -38,4 +38,4 @@ while(i+1 < len(line)): # loop over ranges
         a = 10**log
         log +=1
     i +=2
-print(s) # 22617871034
+print(s)

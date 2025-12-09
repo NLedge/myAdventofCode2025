@@ -18,4 +18,4 @@ with open('input.txt',encoding='utf-8') as f:
         value = (value + rotate) % max # python mod is not c mod  
         if value == 0:
             count += 1
-print(count) # 1071
+print(count)

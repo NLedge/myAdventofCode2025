@@ -9,7 +9,7 @@ with open("input",encoding ='utf-8') as f:
         deck = collections.deque([],maxlen=dozen)
         isSorted = False
         for n in reversed(line):
-            n = int(n) # cute and unsafe
+            n = int(n) #unsafe
             if len(deck) < dozen:
                 deck.appendleft(n)
             elif n >= deck[0]:
@@ -23,4 +23,3 @@ with open("input",encoding ='utf-8') as f:
                 deck.appendleft(n)
         s += int(''.join(map(str,deck)))
 print(s)
-# 172162399742349

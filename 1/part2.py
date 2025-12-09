@@ -32,4 +32,4 @@ with open('input.txt',encoding='utf-8') as f:
         if value >= max:
             value -= max
             count += 1
-print(count) # 7742, 7222 too high
+print(count)

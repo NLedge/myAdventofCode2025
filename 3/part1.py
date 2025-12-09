@@ -1,4 +1,3 @@
-import time
 s = 0
 with open("input",encoding ='utf-8') as f:
     for line in f:
@@ -20,9 +19,6 @@ with open("input",encoding ='utf-8') as f:
             print('\r',end='',)
             print(a,end='')
             print(b,end='',flush = True)
-            #time.sleep(0.05)
-        #print('')
         s += a * 10 + b
 print('')
 print(s)
-# 17104 low
